@@ -5,9 +5,17 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+	
+	Staging area is a notation from git, but not part of the repository. It 
+	provides the capacity to commit multiple, but not all files in one commit.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+	Even with multiple files with uncommitted changes, the staging area can be 
+	used to stage and commit one or some files at a time. You can also 
+	'diff --staged' to check that the changes about to be committed are exactly 
+	what you expect.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
